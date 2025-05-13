@@ -1,0 +1,113 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+  direction: rtl;
+  text-align: center;
+  line-height: 1.8;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+header {
+  background: linear-gradient(to left, #ffe600, #ffcc00);
+  padding: 30px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #222;
+}
+
+.header-text .tagline {
+  font-style: italic;
+  color: #444;
+  font-size: 18px;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.about {
+  background-color: #f9f9f9;
+}
+
+.characters {
+  background-color: #fff6db;
+}
+
+.character-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.character {
+  max-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.character:hover {
+  transform: scale(1.05);
+}
+
+.character img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.character h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.character p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact {
+  background-color: #f1f1f1;
+}
+
+.contact .social a {
+  margin: 0 15px;
+  font-weight: bold;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.contact .social a:hover {
+  color: #e60023;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+}
